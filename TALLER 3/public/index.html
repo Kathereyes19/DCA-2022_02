@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app/components/profile/style.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="head">
+        <img class="logo" src="./app/components/profile/img/logo.png">
+        <input type="text" class="search" placeholder="Search">
+        <div class="Icons">
+            <img class="icons" src="./app/components/profile/img/casa.png">
+            <img class="icons" src="./app/components/profile/img/mensajes.png">
+            <img class="icons" src="./app/components/profile/img/nuevo.png">
+            <img class="icons" src="./app/components/profile/img/brujula.png">
+            <img class="icons" src="./app/components/profile/img/heart.png">
+            <img class="icons" id="userimg" src="https://images.pexels.com/photos/13625508/pexels-photo-13625508.jpeg?cs=srgb&dl=pexels-alteredsnaps-13625508.jpg&fm=jpg">    
+        </div>
+    </div>
+    <div class="info">
+        <div>
+            <div class="stories">
+                <stories-container></stories-container>
+            </div>
+            <app-container></app-container>
+        </div>
+        <div class="Suggestionscard">
+            <div class="user">
+                <img class="profile" src="https://images.pexels.com/photos/13625508/pexels-photo-13625508.jpeg?cs=srgb&dl=pexels-alteredsnaps-13625508.jpg&fm=jpg">
+                <div>
+                    <p class="name1">kathe.reyes19</p>
+                    <p class="name2">Kathe Reyes</p>
+                </div>
+                <p class="switch">Switch</p>
+            </div>
+            <div class="Suggestions">
+                <p class="suggest">Suggestions for you</p>
+                <p class="allinfo">See All</p>
+            </div>
+            <suggestions-container></suggestions-container>
+            <p class="infoapp">About · Help · Press · API · Jobs · Privacy · Terms · Locations · Language</p>
+            <p class="infoapp">2022 INSTAGRAM CLASS PROJECT</p>
+        </div>
+        
+    </div>
+
+    <script src="./app/index.js" type="module"></script>
+</body>
+</html>
