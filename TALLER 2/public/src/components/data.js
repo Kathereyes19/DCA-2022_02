@@ -1,0 +1,51 @@
+const data = [ 
+    {
+        "userimg":".././img/kathe.jpg",
+        "name":"Katherine Reyes",
+        "age":"18",
+        "ubication":"Cali",
+        "kilometers":"50",
+        "description":"Estudiante de DMI y COM, me encanta el arte y las buenas energias",
+    },
+    {
+        "userimg":".././img/valen.jpg",
+        "name":"Valentina Sanclemente",
+        "age":"22",
+        "ubication":"Cali",
+        "kilometers":"20",
+        "description":"Estudiante de terapia respiratoria, amante al deporte",
+    },
+    {
+        "userimg":".././img/giovanny.jpg",
+        "name":"Giovanny Rojas",
+        "age":"20",
+        "ubication":"Cali",
+        "kilometers":"10",
+        "description":"Estudiante de aviacion y derecho",
+    },
+    {
+        "userimg":".././img/aleja.jpg",
+        "name":"Alejandra Di Gravina",
+        "age":"19",
+        "ubication":"Italia",
+        "kilometers":"13456",
+        "description":"Estudiante de publicidad, italiana viviendo en Colombia",
+    },
+    {
+        "userimg":".././img/joshua.jpg",
+        "name":"Joshua Vahos",
+        "age":"19",
+        "ubication":"Jamundi",
+        "kilometers":"140",
+        "description":"Estudiante de ENI, fanatico de los caballos",
+    },
+    {
+        "userimg":".././img/andrea.jpg",
+        "name":"Andrea Rubiano",
+        "age":"19",
+        "ubication":"Bogota",
+        "kilometers":"5655",
+        "description":"Estudiante de comunicacion y periodismo, bailarina y modelo",
+    },
+]
+export default data;
