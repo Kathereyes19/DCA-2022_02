@@ -1,0 +1,10 @@
+import "./funciones/Ejercicio 1/funcion1.js";
+import "./funciones/Ejercicio 2/funcion2.js";
+import "./funciones/Ejercicio 3/funcion3.js";
+import "./funciones/Ejercicio 4/funcion4.js";
+import "./funciones/Ejercicio 5/funcion5.js";
+import "./funciones/Ejercicio 6/funcion6.js";
+import "./funciones/Ejercicio 7/funcion7.js";
+import "./funciones/Ejercicio 8/funcion8.js";
+import "./funciones/Ejercicio 9/funcion9.js";
+import "./funciones/Ejercicio 10/funcion10.js";
